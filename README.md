@@ -67,14 +67,14 @@ npm start
 By default, the server runs on `http://localhost:4001`
 
 ## 🚀 API Endpoints
-| Method | Endpoint           | Description                  |
-|--------|-------------------|------------------------------|
-| POST    | /profile         | Create user profile         |
-| GET    | /profile/:id      | Get user profile            |
-| PUT    | /profile/:id      | Update user profile         |
-| DELETE | /profile/:id      | Delete user profile         |
-| GET    | /profile          | Get all users profile       |
-| GET    | /health-check     | Check server status         |
+| Method | Endpoint              | Description                 |
+|--------|---------------------- |-----------------------------|
+| POST    | /profile             | Create user profile         |
+| GET    | /profile/:userId      | Get user profile            |
+| PUT    | /profile/:userId      | Update user profile         |
+| DELETE | /profile/:userId      | Delete user profile         |
+| GET    | /profile              | Get all users profile       |
+| GET    | /health-check         | Check server status         |
 
 ## 📦 Deployment
 ### **1️⃣ Deploy to AWS EC2**
